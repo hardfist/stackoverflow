@@ -8,3 +8,14 @@ type A = true | false; // size(A) = 2
 type B = 'AM' | 'PM'  // size(B) = 2
 
 type Sum = A | B // size(A) + size(B) = 4
+
+type Tree = TreeNode | Empty;
+type Empty = {
+  kind: 'empty'
+}
+type TreeNode = {
+  kind: 'node',
+  val: number,
+  left: Tree,
+  right: Tree
+}
