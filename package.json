@@ -1,0 +1,15 @@
+{
+  "name": "stackoverflow",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "main": "index.js",
+  "repository": "https://github.com/hardfist/stackoverflow",
+  "author": "hardfist <1562502418@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  }
+}
